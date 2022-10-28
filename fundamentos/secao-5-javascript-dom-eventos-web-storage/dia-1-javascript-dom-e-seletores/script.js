@@ -50,7 +50,7 @@ changeLetters();
 function paragraphTags() {
   let elements = document.getElementsByTagName("p");
   for (let index = 0; index < elements.length; index += 1) {
-    console.log(elements[index]);
+    console.log(elements[index].innerHTML);
   }
 }
 paragraphTags();
