@@ -17,6 +17,7 @@
   height: 400px;
   margin: 56px 0;
   width: 400px;
+  border-radius: 10px;
 }
 
 .emergency-tasks div {
@@ -32,6 +33,7 @@
   display: inline-block;
   height: 400px;
   width: 400px;
+  border-radius: 10px;
 }
 
 .no-emergency-tasks div {
