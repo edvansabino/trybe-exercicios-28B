@@ -16,3 +16,7 @@ const modifyClass = document.getElementsByClassName("prime")[0];
 
 const modifyClass2 = document.getElementsByClassName("prime")[1];
       modifyClass2.style.backgroundColor = "gray";
+
+const changeSubt = document.getElementsByTagName("h4");
+      changeSubt[0].innerText = "Aprendendo de verdade";
+      
