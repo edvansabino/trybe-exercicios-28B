@@ -10,3 +10,9 @@ const secondParagraph = document.getElementById("second-paragraph");
 const modifySubtitle = document.getElementById("subtitle");
       modifySubtitle.style.color = "orange";
       modifySubtitle.style.backgroundColor = "black";
+
+const modifyClass = document.getElementsByClassName("prime")[0];
+      modifyClass.style.backgroundColor = "cyan";
+
+const modifyClass2 = document.getElementsByClassName("prime")[1];
+      modifyClass2.style.backgroundColor = "gray";
