@@ -7,7 +7,7 @@ let currentElement = document.querySelector('#elementoOndeVoceEsta');
 let elementoPai = document.querySelector('#elementoOndeVoceEsta').parentElement;
   elementoPai.style.backgroundColor = "gray";
   console.log(elementoPai);
-  
+
 // Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
 
 // Acesse o primeiroFilho a partir de pai.
@@ -16,3 +16,4 @@ let elementoPai = document.querySelector('#elementoOndeVoceEsta').parentElement;
 // Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
 // Agora acesse o terceiroFilho a partir de pai.
 
+document.getElementById("stark_childs").firstChild.innerText;
