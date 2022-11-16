@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700;800&display=swap');
+@import './node_modules/pikaday/css/pikaday.css';
 
 *{
   margin: 0;
