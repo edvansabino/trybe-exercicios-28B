@@ -29,23 +29,22 @@ p {
     line-height: 1.5em;
   }
 
-  /* ?--> Layout número 2 */
-  @media screen and (min-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  
-    .container {
-      flex-wrap: wrap;
-    }
+/* ?--> Layout número 2 */
+@media screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 
-    /* ?--> Layout número 3 */
-    @media screen and (min-width: 1000px) {
-      body {
-        background-color: lightgreen;
-      }
-    
-      .container {
-        flex-wrap: nowrap;
-      }
-      
+  .container {
+    flex-wrap: wrap;
+  }
+
+  /* ?--> Layout número 3 */
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .container {
+    flex-wrap: nowrap;
+  }
