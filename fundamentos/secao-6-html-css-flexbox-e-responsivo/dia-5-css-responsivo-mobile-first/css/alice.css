@@ -30,3 +30,13 @@ p {
   }
 
   /* ?--> Layout número 2 */
+  @media screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  
+    .container {
+      flex-wrap: wrap;
+    }
+
+    /* ?--> Layout número 3 */
